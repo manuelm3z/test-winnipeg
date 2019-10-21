@@ -1,0 +1,13 @@
+.Day {
+  box-sizing: border-box;
+  border-right: 1px solid rgb(232, 232, 232);
+  margin-right: 10px;
+  width: calc(100vw / 6)
+}
+.Day:first-child {
+  border-left: 1px solid rgb(232, 232, 232);
+  padding-left: 10px;
+}
+.Day:last-child {
+  margin-right: 0px;
+}
